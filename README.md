@@ -31,6 +31,7 @@ Implementation 2: Color Shift on player Hit.
 <img width="362" alt="image" src="https://github.com/user-attachments/assets/afad35c8-c58f-41b6-97c2-a79515a65718">
 
 We use the pre-designed LUT ColorGrading script/Shader combination. Built in photoshop, we create a greyscale effect, reminiscent of other game impact frames, where the screen goes achromatic for a moment when struck. The script we implement alongside it modified the contribution when not struck and raises it when struck, while running a coroutine to disable it automatically (and convey the brief impact frame effect we were going for).
+<img width="144" alt="image" src="https://github.com/user-attachments/assets/696a980f-6000-45e8-bc13-2f150a78e904">
 
 Implementation 3: Player Sway.
 
