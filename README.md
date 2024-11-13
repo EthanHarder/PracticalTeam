@@ -36,4 +36,6 @@ We use the pre-designed LUT ColorGrading script/Shader combination. Built in pho
 Implementation 3: Player Sway.
 
 This shader is derived from the vertex extruding shader. It has been modified to remove the normals of the vertices and instead modifies each vertex along world space (X position). It is modified by _Time, and a sway float variable to multiply against, all under Sine to make it bob back and forth, hopefully similar to a real fighter in combat. it also shifts the normals along the same path so it doesnt distort the texture (though the texture is a reused toon ramp due to time constraints).
+<img width="133" alt="image" src="https://github.com/user-attachments/assets/a8b7682c-b066-44c2-af81-679f36691417">
+
   
