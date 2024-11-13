@@ -26,6 +26,8 @@ This shader starts with the prebuilt Toon Lighting as taught in class. We expand
   -The vertex offset effect is enacted in the vertex shader along their normals. It uses the same _Time.z Sine format, to make the enemy himself pulse in time with the flashing. We added this because it conveys throbbing, a cartoonish visual of throbbing as if being hit/ stubbing toe. collectevely these additions seem to effectively convey the enemy is hurt and you are on the offensive.
 
 Implementation 2: Color Shift on player Hit.
+<img width="379" alt="image" src="https://github.com/user-attachments/assets/e9a9585a-0b49-4524-a390-7aff58a0c492">
+<img width="362" alt="image" src="https://github.com/user-attachments/assets/afad35c8-c58f-41b6-97c2-a79515a65718">
 
 We use the pre-designed LUT ColorGrading script/Shader combination. Built in photoshop, we create a greyscale effect, reminiscent of other game impact frames, where the screen goes achromatic for a moment when struck. The script we implement alongside it modified the contribution when not struck and raises it when struck, while running a coroutine to disable it automatically (and convey the brief impact frame effect we were going for).
 
