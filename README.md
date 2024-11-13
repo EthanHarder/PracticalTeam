@@ -24,6 +24,7 @@ This shader starts with the prebuilt Toon Lighting as taught in class. We expand
 
   -The Rim lighting effect's magnitude is modified by _Time.z with a constant modifier and put under Sine to case a repeated pulsing flash, showing an affordance of being vulnerable, as flashing red is a common 'low health' indication in games of this style.
   -The vertex offset effect is enacted in the vertex shader along their normals. It uses the same _Time.z Sine format, to make the enemy himself pulse in time with the flashing. We added this because it conveys throbbing, a cartoonish visual of throbbing as if being hit/ stubbing toe. collectevely these additions seem to effectively convey the enemy is hurt and you are on the offensive.
+<img width="340" alt="image" src="https://github.com/user-attachments/assets/2bf33056-7444-4c25-8090-460a69e8616b">
 
 Implementation 2: Color Shift on player Hit.
 <img width="379" alt="image" src="https://github.com/user-attachments/assets/e9a9585a-0b49-4524-a390-7aff58a0c492">
