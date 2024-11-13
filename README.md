@@ -13,13 +13,13 @@ Derived from the idea of the player's charged uppercut attack.
 Drawn from 2d games of similar titles and the game's idea of punching each other (being dazed and seeing gray is a common and fun concept for conveying disorientation or concussion(?).
   -Player has some kind of motion
 Generally, Boxing is conveyed with the swaying of the fighters. We wanted to implement this in a way that feels smooth, rather then a rough script-based implementation.
-<img width="474" alt="image" src="https://github.com/user-attachments/assets/d858c4b6-1780-4869-b29d-022996c84553">
-![image](https://github.com/user-attachments/assets/e2fd663e-f3f7-4474-b512-eb3784215b34)
+
 
 
 
 Implementation 1: Vulnerable State.
-
+<img width="474" alt="image" src="https://github.com/user-attachments/assets/d858c4b6-1780-4869-b29d-022996c84553">
+![image](https://github.com/user-attachments/assets/e2fd663e-f3f7-4474-b512-eb3784215b34)
 This shader starts with the prebuilt Toon Lighting as taught in class. We expanded this was a bool that is enabled via script, that causes a rim lighting effect, and a vertex offset effect.
 
   -The Rim lighting effect's magnitude is modified by _Time.z with a constant modifier and put under Sine to case a repeated pulsing flash, showing an affordance of being vulnerable, as flashing red is a common 'low health' indication in games of this style.
